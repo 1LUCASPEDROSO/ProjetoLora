@@ -1,0 +1,14 @@
+perguntas
+
+appKey - chave de segurança que gateway e endpoints possuem para a comunicação entre si, gateways podem ter o mesmo appKey para que todos os endpoints não importa o espaço mandem sinal 
+DevEUI -  indentificador do Endpoint unico ( como gerar ? consta na placa em algum lugar o código ?)
+DevAddr - criado no network server e adcionado ao código do endpoint
+NwkSKey - criado pelo network server, chave de sessão.
+
+classe A é default dod endpoints.
+
+loraMac - como e onde configurar ? valor unico ?
+
+aplicação usando class A ->
+ https://stackforce.github.io/LoRaMac-doc/LoRaMac-doc-v4.4.5/class_a_2_nucleo_l073_2main_8c-example.html
+file:///C:/Users/pedro/Downloads/tr007-developing-lorawan-devices-v1-0-0.pdf
