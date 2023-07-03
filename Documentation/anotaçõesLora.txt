@@ -12,3 +12,15 @@ loraMac - como e onde configurar ? valor unico ?
 aplicação usando class A ->
  https://stackforce.github.io/LoRaMac-doc/LoRaMac-doc-v4.4.5/class_a_2_nucleo_l073_2main_8c-example.html
 file:///C:/Users/pedro/Downloads/tr007-developing-lorawan-devices-v1-0-0.pdf
+
+ADC (Analog-to-Digital Converter):
+O ADC é um periférico utilizado para converter um sinal analógico em um valor digital. Ele é usado para medir grandezas analógicas, como tensão ou corrente, e convertê-las em uma representação digital para processamento pelo microcontrolador.
+
+I2C (Inter-Integrated Circuit):
+O I2C é um protocolo de comunicação serial síncrono que permite a transferência de dados entre dispositivos. Ele é usado para interconectar dispositivos em uma placa ou em um sistema, permitindo a comunicação entre eles por meio de barramentos de dados e de controle compartilhados.
+
+SPI (Serial Peripheral Interface):
+O SPI é um protocolo de comunicação serial síncrono que permite a transferência de dados entre um mestre e um ou mais dispositivos escravos. Ele é frequentemente usado para a comunicação com periféricos como sensores, memórias flash, displays LCD, entre outros.
+
+UART (Universal Asynchronous Receiver-Transmitter):
+A UART é uma interface serial assíncrona que permite a comunicação entre dispositivos. Ela é usada para transmitir e receber dados de forma serial, convertendo-os entre formato paralelo e serial. É amplamente utilizada para comunicação serial entre microcontroladores, módulos sem fio, computadores e outros dispositivos.
