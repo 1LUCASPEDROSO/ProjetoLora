@@ -71,7 +71,7 @@ void HW_RTC_Init(void);
 #define DAYS_IN_YEAR                             ( ( uint32_t )  365U )
 #define SECONDS_IN_1DAY                          ( ( uint32_t )86400U )
 #define SECONDS_IN_1HOUR                         ( ( uint32_t ) 3600U )
-#define SECONDS_IN_1MINUTE ( ( uint32_t )   60U )
+#define SECONDS_IN_1MINUTE                       ( ( uint32_t )   60U )
 #define MINUTES_IN_1HOUR                         ( ( uint32_t )   60U )
 #define HOURS_IN_1DAY                            ( ( uint32_t )   24U )
 
@@ -84,12 +84,12 @@ void HW_RTC_Init(void);
 /*!
  * \brief Temperature coefficient deviation of the clock source
  */
-#define RTC_TEMP_DEV_COEFFICIENT( 0.0035 )
+#define RTC_TEMP_DEV_COEFFICIENT                        ( 0.0035 )
 
 /*!
  * \brief Turnover temperature of the clock source
  */
-#define RTC_TEMP_TURNOVER( 25.0 )
+#define RTC_TEMP_TURNOVER                               ( 25.0 )
 
 /*!
  * \brief Turnover temperature deviation of the clock source
@@ -101,6 +101,7 @@ void HW_RTC_Init(void);
 /*!
  * \brief compensates MCU wakeup time
  */
+
 //static bool McuWakeUpTimeInitialized = false;
 
 /*!
