@@ -1,0 +1,15 @@
+
+******FLASH OPERATION******
+
+Flash of n.1 device connected by SWD (ST-Link/V2, CMSIS-DAP, J-Link)
+
+16:43:49.433: Device connection by ST-Link/V2 -> Device connected
+16:43:49.611: Device Identification -> FAILED
+16:43:49.711: Device Flash Programming -> SUCCESS (Flash Programmed in 3.622000 sec.)
+16:43:53.333: Flash Verify Operation -> FAILED
+16:43:53.448: Device Disconnection -> SUCCESS
+
+16:43:53.621: Flash operation finished!
+
+
+******END FLASH OPERATION******

@@ -1,0 +1,9 @@
+D83ADDFFFE2F1E0B.
+
+[integration.mqtt]
+event_topic_template="au915/gateway/{{ .D83ADDFFFE2F1E0B }}/event/{{ .EventType }}"
+command_topic_template="au915/gateway/{{ .D83ADDFFFE2F1E0B }}/command/#"
+
+"198.0.0.174"
+
+lynx http://192.168.0.209:8080
